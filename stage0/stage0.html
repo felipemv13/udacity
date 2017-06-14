@@ -1,0 +1,187 @@
+<html>
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Udacity - Nanodegree</title>
+    <!-- Student: Felipe Carvalho -->
+</head>
+
+<body>
+    <div>
+        <h1>Intro to Programming Nanodegree</h1>
+        <p><b>Stage 0 - First Project</b></p>
+        <p>Um pouco sobre HTML</p>
+        <p>HTML <em>(HyperText Markup Language)</em> é um padrão de marcação para páginas e aplicações web, e surgiu no início dos anos 90.</p>
+        <p>Atualmente a linguagem está na versão 5, popularmente conhecida como HTML5.</p>
+        <span>fonte: <a href="https://en.wikipedia.org/wiki/HTML">HTML - Wikipedia, the free encyclopedia</a></span>
+        <br>
+        <br>
+        <p><b>A estrutura de uma página HTML</b></p>
+        <p>Em sua composição, toda página HTML tem um padrão mínimo de elementos, chamados também de 'tags'. Abaixo a estrutura mínima de uma página HTML.</p>
+
+        <pre>
+	&lt;html&gt;
+		&lt;head&gt;
+		&lt;&frasl;head&gt;				
+		&lt;body&gt;
+		&lt;&frasl;body&gt;
+	&lt;&frasl;html&gt;
+		</pre>
+        
+        <p>Neste capítulo inicial falaremos das tags &lt;p&gt;, &lt;div&gt;, &lt;h1&gt;, &lt;b&gt;, &lt;em&gt;, &lt;span&gt;.</p>
+        <p>Antes de falarmos sobre cada uma, é importante sabermos que as tags, com pequenas exceções, e trataremos essas, tem o mesmo padrão de formato, onde temos 'atributos' e seus respectivos 'valores' para cada tag. Vejamos abaixo:</p>
+        <pre>
+    &lt;TAG ATRIBUTO1="VALOR" ATRIBUTO2="VALOR" ...&gt;Texto de conteúdo&lt;&frasl;TAG&gt;
+		</pre>
+	
+    </div>
+    
+    <div>
+        <p><strong><em>Tag h1</em></strong></p>
+        <p>A tag "h1" é utilizada para destacar, principalmente, títulos em um texto.</p>
+        <p>Sua estrutura é a seguinte:</p>
+        <pre>
+	&lt;h1&gt;Título principal da página&lt;&frasl;h1&gt;
+		</pre>
+        <p>Exemplo:</p>
+        <pre>
+	&lt;h1&gt;<h1>Meu Título Principal</h1>&lt;&frasl;h1&gt;
+		</pre>
+        <p><em>Obs.: Esta tag também pode ser utilizada em imagens, seguindo a mesma estrutura.</em></p>
+    </div>
+	<br>
+
+    <div>
+        <p><strong><em>Tag p</em></strong></p>
+		<p>A tag "p" é uma tag de bloco de conteúdo. Muito usado para estruturas de parágrafos em textos.</p>
+		<p>Sua estrutura é a seguinte:</p>		
+		<pre>
+	&lt;p&gt;Linha de texto de um texto principal.&lt;&frasl;p&gt;
+		</pre>
+		<p>Exemplo:</p>
+		<pre>
+	&lt;p&gt;<p>Este é um parágrafo de texto. Você pode inserir o seu texto aqui.</p>&lt;&frasl;p&gt;
+		</pre>
+	</div>
+	<br>
+
+	<div>
+		<p><strong><em>Tag br</em></strong></p>
+		<p>Se você reparar, a tag 'p' automaticamente força o texto a ir para a próxima linha. E se eu precisar de mais uma linha pulada? Aí podemos usar a tag <em>br</em>.</p>
+		<p>Sua estrutura é a seguinte:</p>
+		<pre>
+	&lt;br&gt;	-- (Pulando uma linha)
+		</pre>
+		<p>Exemplo:</p>
+		<pre>
+	&lt;br&gt; -- (Pulando uma linha)
+	Texto
+	&lt;br&gt;&lt;br&gt;
+	
+
+	(Pulando duas linhas)
+		</pre>
+	</div>
+
+	<div>
+		<p><strong><em>Tag b</em></strong></p>
+		<p>A tag "b" é uma tag usada para transformar o texto em negrito.</p>
+		<p>Sua estrutura é bem simples:</p>
+		<pre>
+	&lt;b&gt;Texto em negrito&lt;&frasl;b&gt;
+		</pre>
+		<p>Exemplo:</p>
+		<pre>
+	&lt;b&gt;<b>Este é um texto escrito com a tag 'b'</b>.&lt;&frasl;b&gt;
+		</pre>
+	</div>
+
+	<div>
+	    <p><strong><em>Tag em</em></strong></p>
+		<p>A tag "em" é uma tag usada para transformar o texto em itálico. Antes a tag 'i' era utilizada, mas ela foi descontinuada e substituída.</p>
+		<p>Sua estrutura também é muito simples:</p>
+		<pre>
+	&lt;em&gt;Texto em itálico&lt;&frasl;em&gt;
+		</pre>
+		<p>Exemplo:</p>
+		<pre>
+	&lt;em&gt;<em>Este é um texto escrito com a tag 'em'</em>.&lt;&frasl;em&gt;
+		</pre>
+	</div>
+
+	<div>
+		<p><strong><em>Tag span</em></strong></p>
+		<p>A tag "span" é uma tag utilizada para textos, porém, com menor importância. Muito usada para colocar trechos de texto que não precisam de destaque ou importância, e que não necessitem de uma tag 'p'.</p>
+		<p>Sua estrutura é a seguinte:</p>
+		<pre>
+	&lt;span&gt;Texto escrito com span&lt;&frasl;span&gt;
+		</pre>
+		<p>Exemplo:</p>
+		<pre>
+	&lt;span&gt;<span>Este é um texto escrito com span.</span>&lt;&frasl;span&gt;
+		</pre>
+	</div>
+
+	<div>
+		<p><strong><em>Tag a</em></strong></p>
+		<p>A tag "a" é uma tag âncora, ou seja, ela é um hyperlink -- marcações ou pontos da página atual ou externa.</p>
+		<p>A propriedade <em>href</em> indica o link a direcionar. A estrutura é simples:</p>
+		<pre>
+			&lt;a href="link-a-se-acessado"&gt;Texto&lt;&frasl;a&gt;
+		</pre>
+		<p>Exemplo:</p>
+		<pre>
+			Este é um de acesso à página da Udacity. Clique &lt;a&gt;<a href="https://br.udacity.com/">aqui</a>.&lt;&frasl;a&gt;
+		</pre>
+	</div>
+
+	<div>
+		<p><strong><em>Tag img</em></strong></p>
+		<p>A tag "image" é uma tag para marcação de hyperlinks, porém, imagens. Sua estrutura é um pouco diferente dos demais itens, pois tem a obrigatoriedade de duas propriedades.</p>
+		<p>A propriedade <em>src</em> indica o endereço da imagem, e a propriedade <em>alt</em> indica um texto alternativo caso a imagem não apareça.</p>
+		<p>Esta tag tem de diferente que também não possui uma tag de fechamento, como '&lt;&frasl;p&gt;'. Veja abaixo:</p>
+		<pre>
+			&lt;img src="https://br.udacity.com/assets/images/logo/logomark.min.svg" alt="texto-alternativo-a-imagem"&gt;
+			 alt="text">
+		</pre>
+		<p>Exemplo:</p>
+		<pre>
+			&lt;img <img src="http://images.clipartlogo.com/files/ss/thumb/119/119316442/cute-little-penguin-isolated-on_small.jpg" alt="este é pinguim">&gt;
+		</pre>
+	</div>
+
+	<div>
+		<p><strong><em>Tag div</em></strong></p>
+		<p>A tag "div" é uma tag de bloco de conteúdo também, como a tag 'p'.</p>
+		<p>A diferença é que a tag <em>div</em> é comumente usada como um contêiner para organizar e estruturar os blocos de uma página HTML.</p>
+		<p>Sua estrutura é a seguinte:</p>
+		<pre>
+	&lt;div&gt;
+		&lt;p&gt;Primeira linha de texto.&lt;&frasl;p&gt;
+		&lt;img src="https://www.uol.com.br/img.svg" "texto-alternativo-a-imagem"&gt;
+		&lt;p&gt;Segunda linha de texto.&lt;&frasl;p&gt;
+	&lt;&frasl;div&gt;
+		</pre>
+		<p>Exemplo:</p>
+		<pre>
+	&lt;div&gt;<div>
+		<p>Primeira linha de texto dentro da div. Link para a Udacity <a href="https://br.udacity.com/">aqui</a>.</p>
+		<p>Segunda linha de texto dentro da div. Link para a Udacity <a href="https://br.udacity.com/">aqui</a>.</p>
+		</div>
+	&lt;&frasl;div&gt;
+		</pre>
+	</div>
+
+	<div>
+	<p><em><b><p>Dicas Finais</p></b></em></p>
+	<p>Com base nos elementos apresentados, se você olhar o código fonte dessa página, verá que ela foi 99% escrita com os elementos apresentados -- com exceção de um único elemento chamado 'pre' que, resumidamente, formata um texto e o exibe da maneira que está no código. Podemos concluir o seguinte:
+	<p>As tagas a, span, br, img, and strong são todos elementos 'inline', ou seja, elementos que não possuem blocos de outras tags neles. Isso não quer dizer que não possam ter, ok?!</p>
+	<p>Já os elementos div e p são blocos de elementos, ou seja, eles podem conter diversos elementos 'inline' neles.</p>
+	</div>
+	<br>
+
+	<p> Obrigado e até a próxima!</p>
+
+</body>
+</html>

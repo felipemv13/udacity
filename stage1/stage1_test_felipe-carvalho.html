@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="nanodegree,udacity,stage1,programming,html5,css3">
+    <link href="style.css" rel="stylesheet">
+    <title>Test - Stage 1</title>
+</head>
+<body>
+    <div class="topo">
+        <img id="logo-topo" src="logo_udacity_cor-invertida.svg" alt="Udacity" />
+        <h1>Intro to Programming Nanodegree</h1>
+        <span>Stage 1</span>
+    </div>
+    <div class="container">
+        <nav class="side-nav">
+            <form id="search">
+                <input type="text" placeholder="Search...">
+            </form>
+            <ul class="menu">
+                <li>
+                    <a href="#">Home</a>
+                    <ul class="submenu">
+                        <li><a href="#intro">Introduction</a></li>
+                        <li><a href="#html">HTML</a></li>
+                        <li><a href="#estrutura-basica-doc">Estrutura básica de um documento</a></li>
+                    </ul>
+                </li>
+                <li><a href="#css">Css</a></li>
+                <li><a href="#first-project">First Project</a></li>
+                <li>
+                    <a href="#about">About</a>
+                    <ul class="submenu">
+                        <li><a href="#recursos">Recursos</a></li>
+                        <li><a href="#dicas-finais">Dicas Finais</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Novo Tópico</a></li>
+                <li><a href="#">Novo Tópico</a></li>
+                <li><a href="#">Novo Tópico</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="content">
+                <section>
+                    <article id="intro">
+                        <h2 class="first-header-article header-article">Introduction</h2>
+                        <p>Esta é uma página web desenvolvida para avaliação da compreensão dos conhecimentos obtidos no Stage 1 do curso 'Intro to Programming Nanodegree' da Udacity.</p>
+                        <p>No Stage 1 são aprendidas as tecnologias HTML e CSS, e aqui, serão explicadas brevemente estas duas tecnologias que foram utilizadas na construção dessa página web.</p>
+                        <p>Para mais informações sobre este curso nanodegree ou outro, acesse <a href="www.udacity.com">www.udacity.com</a> ou clique <a href="www.udacity.com">aqui</a> para ser redirecionado automaticamente.</p>
+                        <aside id="html">
+                            <h3 class="header-aside">HTML</h3>
+                            <p>HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto) é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados
+                            por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p>
+                            <p>Veja as versões já publicadas:</p>
+                            <table id="versao-html" class="tabela">
+                                <thead>
+                                    <tr>
+                                        <th>Versão</th>
+                                        <th>Ano</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>HTML</th>
+                                        <th>1991</th>
+                                    </tr>
+                                    <tr>
+                                        <th>HTML 2.0</th>
+                                        <th>1995</th>
+                                    </tr>
+                                    <tr>
+                                        <th>HTML 3.2</th>
+                                        <th>1997</th>
+                                    </tr>
+                                    <tr>
+                                        <th>HTML 4.01</th>
+                                        <th>1999</th>
+                                    </tr>
+                                    <tr>
+                                        <th>XHTML</th>
+                                        <th>2000</th>
+                                    </tr>
+                                    <tr>
+                                        <th>HTML5</th>
+                                        <th>2014</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </aside>
+                        <aside id="estrutura-basica-doc">
+                            <h3 class="header-aside">Estrutura básica de um documento</h3>
+                            <p>Todo documento HTML tem uma estrutura básica, e aqui representaremos um desses modelos.</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;charset="utf-8" />
+    &lt;meta name="description" content="a descrição do seu site em no máximo 90 caracteres">
+    &lt;meta name="keywords" content="escreva palavras-chaves curtas, máximo 150 caracteres">
+    &lt;title&gt;Título do Documento&lt;&frasl;title&gt;
+  &lt;&frasl;head&gt;
+  &lt;body&gt;
+  &lt;!-- Dentro das tags <em>&lt;body&gt;</em> <em>&lt;&frasl;body&gt;</em> fica quase toda parte visível para todos, onde pode-se inserir
+    textos, imagens, links para outras páginas, etc...
+  geralmente usa-se: --&gt;
+    &lt;div&gt;Tag para criar-se uma 'caixa', um bloco, mais utilizada com "Cascading Style Sheets
+        (Folhas de Estilo em Cascata)&lt;&frasl;div&gt;
+    &lt;span&gt;Tag para modificação de uma parte do texto da página&lt;&frasl;span&gt;
+    &lt;img src="endereço_de_uma_imagem.jpg" &frasl;&gt;
+    &lt;a href="http://www.wikipedia.org">Wikipedia, A Enciclopédia Livre&lt;&frasl;a&gt;
+  &lt;&frasl;body&gt;
+&lt;&frasl;html&gt;</code></pre>
+                        </aside>
+                    </article>
+                    <!--CSS-->
+                    <article id="css">
+                        <h2 class="header-article">CSS</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae arcu id nisi rutrum gravida vitae interdum quam. Praesent interdum erat vel lacus rutrum, eu accumsan tellus tristique. Donec non euismod purus, ut vulputate
+                            leo. Duis sed fringilla magna, quis egestas est. Nullam porttitor magna quis tellus gravida ultrices. Praesent in finibus sapien, a finibus ex. Proin dignissim facilisis quam eu condimentum. Curabitur sit amet aliquet ante,
+                            a dapibus diam. Quisque neque tellus, varius vitae tincidunt sit amet, dictum at diam. Etiam malesuada quam imperdiet consequat efficitur. Nunc vel nisi aliquet, viverra lorem laoreet, luctus enim. Phasellus faucibus dapibus
+                        eros vitae varius.</p>
+                        <p>Aliquam condimentum quis risus vulputate convallis. Nunc volutpat venenatis lorem, sed egestas tortor venenatis a. Cras dictum ornare eros sed semper. Nam porttitor suscipit dolor, eu sodales nisl euismod consequat. Sed justo urna,
+                        bibendum at maximus eleifend, bibendum a dui. Proin dolor massa, venenatis in tincidunt quis, condimentum a odio. Cras eu rhoncus erat, vel gravida mauris.</p>
+                        <p>Etiam placerat imperdiet lorem, quis consectetur nibh egestas ac. Duis convallis placerat quam, a tempor turpis ornare sed. Duis sollicitudin ornare venenatis. Praesent rutrum tortor eget vulputate luctus. Proin lacinia vestibulum
+                        faucibus. Nulla sit amet tortor tempor quam consequat semper. Vivamus auctor, ex sed pellentesque rhoncus, nulla lectus sollicitudin elit, ut tempus mauris purus nec lectus. Nam lobortis erat ac varius sollicitudin.</p>
+                    </article>
+                    <!--FIRST PROJECT-->
+                    <article id="first-project">
+                        <h2 class="header-article">FIRST PROJECT</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae arcu id nisi rutrum gravida vitae interdum quam. Praesent interdum erat vel lacus rutrum, eu accumsan tellus tristique. Donec non euismod purus, ut vulputate leo. Duis sed fringilla magna, quis egestas est. Nullam porttitor magna quis tellus gravida ultrices. Praesent in finibus sapien, a finibus ex. Proin dignissim facilisis quam eu condimentum. Curabitur sit amet aliquet ante, a dapibus diam. Quisque neque tellus, varius vitae tincidunt sit amet, dictum at diam. Etiam malesuada quam imperdiet consequat efficitur. Nunc vel nisi aliquet, viverra lorem laoreet, luctus enim. Phasellus faucibus dapibus eros vitae varius.</p>
+                        <p>Nunc eget leo non massa elementum aliquet sed vitae velit. Aliquam pretium id elit ac eleifend. Suspendisse odio mauris, blandit a faucibus rutrum, placerat eu enim. Pellentesque vel pellentesque nisl, vitae vulputate dui. Etiam non mi eros. Nulla vel iaculis risus. Suspendisse vitae placerat sem. Vestibulum condimentum auctor ligula, eleifend facilisis ligula luctus sit amet. Etiam scelerisque euismod orci et sagittis. Maecenas varius quis justo in finibus.</p>
+                        <p>Morbi eleifend purus leo, et aliquam urna imperdiet at. Donec viverra nulla ac massa porta tincidunt. Sed elit nisi, varius ut leo in, facilisis efficitur leo. Vivamus turpis quam, tristique non porta sit amet, porta eget lorem. Curabitur commodo congue ipsum, eget euismod quam. Phasellus quis tortor at nibh dictum tincidunt rhoncus blandit nulla. Etiam blandit faucibus arcu et lacinia.</p>
+                        <p>Nullam porta diam eu ipsum placerat, eget porta lorem hendrerit. Fusce vel hendrerit purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rutrum vulputate euismod. Aliquam nec sapien nibh. In non leo eget nisi mattis porta. Nam pharetra congue tortor, at malesuada erat eleifend vitae. Suspendisse scelerisque, diam faucibus commodo rutrum, sem leo fringilla dolor, sit amet dapibus justo urna faucibus nisl.</p>
+                        <p>Mauris malesuada bibendum erat, et dictum turpis rhoncus ut. Fusce interdum non sem sed vulputate. Suspendisse vel facilisis velit, maximus placerat eros. Donec et metus id est lacinia volutpat. Pellentesque condimentum ligula sed quam rutrum, sit amet interdum diam varius. Vivamus justo leo, vehicula a nunc vitae, suscipit porttitor arcu. Cras viverra ultrices velit, id sollicitudin magna. Integer condimentum, mi quis bibendum sodales, sapien neque pharetra magna, eu tempor massa ipsum eu augue. Phasellus pretium risus eros, quis sollicitudin ex accumsan a. Quisque tempor commodo laoreet.</p>
+                    </article>
+                    <!--ABOUT-->
+                    <article id="about">
+                        <h2 class="header-article">ABOUT</h2>
+                        <aside id="recursos">
+                            <h3 class="header-aside">Recursos</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae arcu id nisi rutrum gravida vitae interdum quam. Praesent interdum erat vel lacus rutrum, eu accumsan tellus tristique. Donec non euismod purus, ut vulputate leo. Duis sed fringilla magna, quis egestas est. Nullam porttitor magna quis tellus gravida ultrices. Praesent in finibus sapien, a finibus ex. Proin dignissim facilisis quam eu condimentum. Curabitur sit amet aliquet ante, a dapibus diam. Quisque neque tellus, varius vitae tincidunt sit amet, dictum at diam. Etiam malesuada quam imperdiet consequat efficitur. Nunc vel nisi aliquet, viverra lorem laoreet, luctus enim. Phasellus faucibus dapibus eros vitae varius.</p>
+                        </aside>
+                        <aside id="dicas-finais">
+                            <h3 class="header-aside">Dicas Finais</h3>
+                            <p>Com base nos elementos apresentados, se você olhar o código fonte dessa p&aacute;gina, ver&aacute; que ela foi 99% escrita com os elementos apresentados -- com exceç&atilde;o de um único elemento chamado 'pre' que, resumidamente, formata um texto, respeitando espaços definidos no arquivo HTML, e o elemento 'code', que geralmente é usado para exibir trechos de códigos em páginas HTML. Podemos concluir o seguinte:</p>
+                            <p>As tagas a, span, br, img, and strong s&atilde;o todos elementos 'inline', ou seja, elementos que n&atilde;o possuem blocos de outras tags neles. Isso n&atilde;o quer dizer que n&atilde;o possam ter, ok?!</p>
+                            <p>J&aacute; os elementos <em>div</em> e <em>p</em> s&atilde;o blocos de elementos, ou seja, eles podem conter diversos elementos 'inline' neles.</p>
+                        </aside>
+                    </article>
+                </section>
+            </div>
+        </main>
+    </div>
+    <!--Rodapé-->
+    <div id="rodape">
+        <footer>
+            <span id="links">Links e Referências</span>
+            <nav class="rodape">
+                <ol>
+                    <li><a href="https://tableless.com.br/css-reset/">https://tableless.com.br/css-reset/</a></li>
+                </ol>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,220 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+    transition: all 0.3s;
+}
+
+
+/* BODY */
+
+body {
+    font-family: "Avenir Next", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/* TOPO */
+
+#logo-topo {
+    height: 75px;
+    width: 75px;
+    float: left;
+}
+
+.topo {
+    color: white;
+    background-color: rgb(3, 178, 228);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: -.01em;
+    position: relative;
+    z-index: 10;
+    padding: 2%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.topo span {
+    position: absolute;
+    bottom: 20%;
+    left: 120px
+}
+
+.topo h1 {
+    height: 75px;
+    line-height: 30px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+/* SIDE-NAV */
+
+.side-nav {
+    width: 25%;
+    height: 850px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0;
+    float: left;
+    position: fixed;
+    overflow: hidden;   
+    background-color: rgb(249, 250, 251);
+}
+
+nav ul,
+ol {
+    list-style: disc;
+}
+
+nav ul {
+    overflow-y: scroll;
+    height: 100%;
+    width: 120%; 
+}
+
+.side-nav ul a {
+    text-transform: uppercase;
+    color: #9da5b3;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0 10px 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.side-nav ul a.ativo,
+.side-nav ul a:hover {
+    color: #4a8bfc;
+    border-right: 2px solid #4a8bfc
+}
+
+.side-nav ul.submenu a{
+    text-transform: initial;
+
+}
+#search {
+    min-height: 78px;
+    padding: 20px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e6e9ee;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+#search input:focus {
+    background-size: 20px;
+}
+
+#search input {
+    border: 1px solid #e6e9ee;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    background: url('lupa.png') no-repeat scroll 95% center transparent;
+    background-size: 15px;
+}
+
+
+/* MAIN */
+
+a {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+main {
+    float: left;
+    width: 75%;
+    margin-left: 25%;
+    padding: 50px 40px 100px;
+    box-sizing: border-box;
+}
+
+.header-aside {
+    color: #26292e;
+    line-height: 1.4em;
+    /*margin: 2em 0 1em;*/
+    margin: 50px 0 20px;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    font-weight: bold;
+}
+
+/* CONTAINER */
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+    background-color: #EEF2F2;
+    padding: 20px;
+    line-height: 20px;
+}
+
+article p, aside p {
+    color: #4C555A;
+    line-height: 24px;
+    margin: 0;
+}
+
+table {
+    display: table;
+    margin: 30px 0px 0px;
+}
+
+.tabela {
+    border-collapse: collapse;
+    padding: 0;
+    border-spacing: 0;
+    
+}
+
+th,
+td {    
+    border: 1px solid #e6e9ee;
+    padding: 5px 10px;
+}
+
+.header-article {
+    margin: 2em 0 1em;
+}
+
+.first-header-article {
+    margin-top: 0px;
+}
+
+.header-article,
+span {
+    text-transform: uppercase;
+}
+
+.header-aside {
+}
+
+/* */
+
+
+/* RODAPÉ */
+
+#rodape {
+    margin: 0 0 0 25%;
+    padding: 50px 40px 100px;
+    overflow: hidden;
+}
+
+
+/*
+  https://wdexplorer.com/20-examples-beautiful-css-typography-design/
+  https://www.w3schools.com/css/css_table.asp
+  http://www.cs.virginia.edu/~up3f/cs4640/supplement/example-css.html
+*/
